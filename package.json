@@ -1,0 +1,21 @@
+{
+  "name": "over9000",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --mode=development --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matt2yu/over9000.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matt2yu/over9000/issues"
+  },
+  "homepage": "https://github.com/matt2yu/over9000#readme"
+}
