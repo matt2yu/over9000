@@ -1,6 +1,6 @@
 # **over9000**
 
-*over9000 is a JavaScript browser data visualizer where a user can explore a range of their favorite anime character's powerful attack moves.*
+*over9000 is a JavaScript data visualizer where a user can explore a range of their favorite anime character's powerful attack moves.*
 
 ### Functionality & MVP
 - Implement welcome modal
