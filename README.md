@@ -8,23 +8,22 @@
 - Display json data as circles
 - Scale bubble chart circles with value of each power level
 - Showcases anime image and video via onClick event
-- BONUS - Hover over circles to show clip playing in circle background (zoom to appropriate perspective)
-- BONUS - Add force directions to spin and collide bubble chart elements
+- BONUS: Hover over circles to show clip playing in circle background (zoom to appropriate perspective)
+- BONUS: Add force directions to spin and collide bubble chart elements
 
-### Technologies employed
-
+### Architecture & Technologies
+This project will be implemented with the following technologies:
 - JavaScript
 - D3.js
 - HTML
 - CSS
 
 ### Wireframe
-
 <img src="https://i.imgur.com/ima37R3.png" />
 
-Timeline
-
-- Get content to render and move sprite (1 day)
-- Animate sprite movement (1 day)
-- Move from one room node to another (1 day)
-- Interact with entities (1 day)
+### Timeline
+- Set up modal and render bubble chart data (2 day)
+- Animate bubble chart data and modal (1 day)
+- Hover and show information per bubble (1 day)
+- Style entire project (1 day)
+- BONUS: hover shows video panned into the bubble zoom fit
