@@ -8,14 +8,24 @@ body {
 
 text {
     text-anchor: middle;
-    font: 10px sans-serif;
+    font: 14px sans-serif;
+    font-weight: 600;
     pointer-events: none;
     opacity: 0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    
 }
 
 circle {
     cursor: pointer;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
 }
+
 
 img {
     width: 200px;
@@ -37,8 +47,12 @@ span {
 }
 
 .OnePunchMan { background: #F16529; }
+.OnePunchMan:hover { background: pink; }
+
 .MyHeroAcademia  { background: #1C88C7; }
-.DragonBal   { background: #FCC700; }
+.DragonBallZ   { background: #FCC700; }
+
+
 
 .tooltip {
     position: absolute;
