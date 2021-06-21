@@ -6,6 +6,7 @@
         <title>Over9000</title>
 
         <link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" href="modal.css">
     </head>
     <body>
         <svg id="bubble-chart"></svg>
@@ -19,5 +20,19 @@
         
         <script src="https://d3js.org/d3.v6.js"></script>
         <script src="bubble.js"></script>
+
+        <div class="modal is-open"> 
+            <div class="modal-text">
+                <h1 class="modal-title">It's over 9000!!!</h1>
+                <h2>by Matt Yu</h2>
+                <p>Welcome to my data visualization site that showcases a few popular anime characters special attacks and their power levels shown by the size of their bubble!
+                </p>
+                <button class="modal-close">Scout power levels</button>
+            </div>
+        
+            <div class="modal-screen"></div>
+            <script src="modal.js"></script>
+        </div>
+
     </body>
 </html>

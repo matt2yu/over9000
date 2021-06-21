@@ -1,7 +1,9 @@
 body {
-    margin: 0;
-    width: 100vw;
-    height: 100vh;  
+    position: fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
 }
 
 text {
@@ -36,7 +38,7 @@ span {
 
 .OnePunchMan { background: #F16529; }
 .MyHeroAcademia  { background: #1C88C7; }
-.DragonBallZ   { background: #FCC700; }
+.DragonBal   { background: #FCC700; }
 
 .tooltip {
     position: absolute;

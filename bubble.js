@@ -11,7 +11,7 @@ const colors = {
 const generateChart = data => {
     const bubble = data => d3.pack()
         .size([width, height])
-        .padding(2)(d3.hierarchy({ children: data }).sum(d => d.score));
+        .padding(8)(d3.hierarchy({ children: data }).sum(d => d.score));
 
     const svg = d3.select('#bubble-chart')
         .style('width', width)
@@ -36,7 +36,7 @@ const generateChart = data => {
             d3.select(this).style('stroke', '#222');
         })
         .on('mousemove', e => tooltip.style('top', `${e.pageY}px`)
-                                     .style('left', `${e.pageX + 10}px`))
+            .style('left', `${e.pageX + 10}px`))
         .on('mouseout', function () {
             d3.select(this).style('stroke', 'none');
             return tooltip.style('visibility', 'hidden');
@@ -49,16 +49,16 @@ const generateChart = data => {
 
     node.transition()
         .ease(d3.easeExpInOut)
-        .duration(1000)
+        .duration(2250)
         .attr('transform', d => `translate(${d.x}, ${d.y})`);
     
     circle.transition()
         .ease(d3.easeExpInOut)
-        .duration(1000)
+        .duration(3500)
         .attr('r', d => d.r);
     
     label.transition()
-        .delay(700)
+        .delay(1500)
         .ease(d3.easeExpInOut)
         .duration(1000)
         .style('opacity', 1)
