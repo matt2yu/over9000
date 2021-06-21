@@ -20,7 +20,7 @@
 
 ### Wireframe
 
-<img src="https://wireframe.cc/Goq1aa" />
+<img src="https://i.imgur.com/ima37R3.png" />
 
 Timeline
 
