@@ -61,7 +61,7 @@ const generateChart = data => {
         .delay(1500)
         .ease(d3.easeExpInOut)
         .duration(1000)
-        .style('opacity', 1)
+        .style('opacity', 4)
 };
 
 (async () => {
