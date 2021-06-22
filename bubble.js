@@ -2,9 +2,11 @@ const file = 'data.json';
 const width = window.innerWidth;
 const height = window.innerHeight;
 const colors = {
-    OnePunchMan: '#F16529',
+    Naruto: '#FFA500',
     MyHeroAcademia: '#1C88C7',
-    DragonBallZ: '#FCC700'
+    DragonBallZ: '#FCC700',
+    OnePunchMan: '#228B22',
+    HunterxHunter: '#9370D8'
 };
 
 
@@ -45,7 +47,7 @@ const generateChart = data => {
     
     const label = node.append('text')
         .attr('dy', 2)
-        .text(d => d.data.name.substring(0, d.r / 3));
+        .text(d => d.data.name.substring(0, d.r / 2));
 
     node.transition()
         .delay(2250)

@@ -1,30 +1,130 @@
 [
    {
-      "name":"Saitama: Killer Move Series Serious Punch",
-      "category":"OnePunchMan",
-      "score":50,
-      "link":"https://www.youtube.com/watch_popup?v=5Bia4ksr8Cs",
-      "img": "./assets/images/50attackmoves/U9LG7GD.png"
-  },
-  {
-      "name":"Midoriya: One Million Percent Delaware Detroit Smash",
-      "category":"MyHeroAcademia",
-      "score":17.518072289156626,
-      "link":"/MyHeroAcademia",
-      "img":"https://picsum.photos/id/118/1500/1000"
-  },
-  {
-      "name":"Goku: Supreme Kamehameha",
-      "category":"DragonBallZ",
-      "score":4.032128514056225,
-      "link":"/DragonBallZ",
-      "img":"https://picsum.photos/id/119/3264/2176"
-  },
-  {
-   "name":"Can't Stop Twinkling: Naval Laser Buffet",
-   "category":"MyHeroAcademia",
-   "score":0.45,
-   "link":"/DragonBallZ",
-   "img":"https://picsum.photos/id/119/3264/2176"
-}
-]
+         "name": "Saitama: Killer Move Series Serious Punch",
+         "category": "OnePunchMan",
+         "score": 50,
+         "link": "https://www.youtube.com/watch_popup?v=5Bia4ksr8Cs",
+         "img": "./assets/images/50attackmoves/U9LG7GD.png"
+   },
+   {
+         "name": "Midoriya: 1,000,000% Percent Delaware Detroit Smash",
+         "category": "MyHeroAcademia",
+         "score": 21.518072289156626,
+         "link": "/MyHeroAcademia",
+         "img": "https://picsum.photos/id/118/1500/1000"
+   },
+   {
+         "name": "Goku: Supreme Kamehameha",
+         "category": "DragonBallZ",
+         "score": 35.032128514056225,
+         "link": "/DragonBallZ",
+         "img": "https://picsum.photos/id/119/3264/2176"
+   },
+   {
+      "name": "Can't Stop Twinkling: Naval Laser Buffet",
+      "category": "MyHeroAcademia",
+      "score": 0.45,
+      "link": "/DragonBallZ",
+      "img": "https://picsum.photos/id/119/3264/2176"
+   },
+   {
+      "name": "Freiza: Death Ball",
+      "category": "DragonBallZ",
+      "score": 27.03292375056225,
+      "link": "/DragonBallZ",
+      "img": "https://picsum.photos/id/119/3264/2176"
+   },
+   {
+      "name": "Majin Buu: Angry Explosion",
+      "category": "DragonBallZ",
+      "score": 24.63291115088004,
+      "link": "/DragonBallZ",
+      "img": "https://picsum.photos/id/119/3264/2176"
+   },
+   {
+      "name": "Netero: 100-type Guanyin Bodhisattva",
+      "category": "HunterxHunter",
+      "score": 22.193407634,
+      "link": "/HunterxHunter",
+      "img": "https://picsum.photos/id/119/3264/2176"
+   },
+   {
+      "name": "All Might: United States of Smash",
+      "category": "MyHeroAcademia",
+      "score": 19.193407634,
+      "link": "/MyHeroAcademia",
+      "img": "https://picsum.photos/id/119/3264/2176"
+   },
+   {
+      "name": "Cell: Death Beam",
+      "category": "DragonBallZ",
+      "score": 18.5,
+      "link": "/DragonBallZ",
+      "img": "https://picsum.photos/id/119/3264/2176"
+   },
+   {
+      "name": "All for One: Ultimate Combination",
+      "category": "MyHeroAcademia",
+      "score": 18.5,
+      "link": "/MyHeroAcademia",
+      "img": "https://picsum.photos/id/119/3264/2176"
+   },
+   {
+      "name": "Naruto: Six Paths Rasenshuriken",
+      "category": "Naruto",
+      "score": 17.53424234,
+      "link": "/Naruto",
+      "img": "https://picsum.photos/id/119/3264/2176"
+   },
+   {
+      "name": "Might Guy: 8th Gate of Death",
+      "category": "Naruto",
+      "score": 17.234044,
+      "link": "/Naruto",
+      "img": "https://picsum.photos/id/119/3264/2176"
+   },
+   {
+      "name": "Endeavor: Prominence Burn",
+      "category": "MyHeroAcademia",
+      "score": 16.432432,
+      "link": "/MyHeroAcademia",
+      "img": "https://picsum.photos/id/119/3264/2176"
+   },
+   {
+      "name": "Madara Uchiha: Double Boulder Tengai Shinsei",
+      "category": "Naruto",
+      "score": 15.532432,
+      "link": "/Naruto",
+      "img": "https://picsum.photos/id/119/3264/2176"
+   },
+   {
+      "name": "Naruto: Tailed Beast Bomb",
+      "category": "Naruto",
+      "score": 15.15,
+      "link": "/Naruto",
+      "img": "https://picsum.photos/id/119/3264/2176"
+   },
+   {
+      "name": "Pain: Universal Push",
+      "category": "Naruto",
+      "score": 15.532432,
+      "link": "/Naruto",
+      "img": "https://picsum.photos/id/119/3264/2176"
+   },
+   {
+      "name": "Mumen Rider: Justice Crash",
+      "category": "OnePunchMan",
+      "score": 14.77777777,
+      "link": "/OnePunchMan",
+      "img": "https://picsum.photos/id/119/3264/2176"
+   },
+   {
+      "name": "OverHaul: Disassembly",
+      "category": "MyHeroAcademia",
+      "score": 13.23232325,
+      "link": "/MyHeroAcademia",
+      "img": "https://picsum.photos/id/119/3264/2176"
+   }
+   
+
+]  

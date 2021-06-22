@@ -11,6 +11,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 } */
+
 text {
     text-anchor: middle;
     font: 14px sans-serif;
@@ -29,6 +30,7 @@ circle {
     white-space: nowrap;
     overflow: hidden;
     text-align: center;
+    width: auto;
 }
 
 
@@ -43,7 +45,9 @@ a {
 }
 
 span {
-    display: inline-block;
+    display: flex;
+    align-content: center;
+    text-align: center;
     margin-top: 5px;
     padding: 2px 10px;
     border-radius: 2px;
@@ -51,9 +55,11 @@ span {
     font-size: 14px;
 }
 
-.OnePunchMan { background: #F16529; }
-.MyHeroAcademia  { background: #1C88C7; }
-.DragonBallZ   { background: #FCC700; }
+.HunterxHunter { background: #9370D8; }
+.MyHeroAcademia { background: #1C88C7; }
+.DragonBallZ { background: #FCC700; }
+.OnePunchMan { background: #228B22; }
+.Naruto { background: #F16529; }
 
 
 .tooltip {
