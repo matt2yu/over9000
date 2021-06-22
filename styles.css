@@ -6,12 +6,17 @@ body {
     right:0;
 }
 
+/* #bubble-chart {
+    background: url("./assets/images/OVER-9000_thumb.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
 text {
     text-anchor: middle;
     font: 14px sans-serif;
     font-weight: 600;
     pointer-events: none;
-    opacity: 0;
+    opacity: 1;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
@@ -47,11 +52,8 @@ span {
 }
 
 .OnePunchMan { background: #F16529; }
-.OnePunchMan:hover { background: pink; }
-
 .MyHeroAcademia  { background: #1C88C7; }
 .DragonBallZ   { background: #FCC700; }
-
 
 
 .tooltip {

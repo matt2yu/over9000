@@ -48,19 +48,20 @@ const generateChart = data => {
         .text(d => d.data.name.substring(0, d.r / 3));
 
     node.transition()
+        .delay(2250)
         .ease(d3.easeExpInOut)
-        .duration(2250)
+        .duration(3000)
         .attr('transform', d => `translate(${d.x}, ${d.y})`);
     
     circle.transition()
+        .delay(1250)
         .ease(d3.easeExpInOut)
-        .duration(3500)
+        .duration(2000)
         .attr('r', d => d.r);
     
     label.transition()
-        .delay(1500)
         .ease(d3.easeExpInOut)
-        .duration(1000)
+        .duration(3000)
         .style('opacity', 4)
 };
 

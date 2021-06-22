@@ -16,14 +16,12 @@
   background: url("./assets/images/ITSOVER9000.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-
-
 }
 
 .modal-text {
   position: absolute;
   left: 50%;
-  top: 25%;
+  top: 40%;
   transform: translate(-50%, -50%);
   z-index: 3;
   background-color: gray;
