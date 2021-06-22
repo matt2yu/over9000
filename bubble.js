@@ -28,6 +28,7 @@ const generateChart = data => {
         .attr('transform', `translate(${width / 2}, ${height / 2})`);
     
     const circle = node.append('circle')
+        // .style('')
         .style('fill', d => colors[d.data.category])
         .on('mouseover', function (e, d) {
             tooltip.select('img').attr('src', d.data.img);
@@ -47,20 +48,22 @@ const generateChart = data => {
     
     const label = node.append('text')
         .attr('dy', 2)
-        .text(d => d.data.name.substring(0, d.r / 2));
+        .text(d => d.data.name.substring(0, d.r / 3));
 
     node.transition()
-        .delay(2250)
+        .delay(3000)
         .ease(d3.easeExpInOut)
         .duration(3000)
         .attr('transform', d => `translate(${d.x}, ${d.y})`);
     
     circle.transition()
+        .delay(3000)
         .ease(d3.easeExpInOut)
-        .duration(2000)
+        .duration(3000)
         .attr('r', d => d.r);
     
     label.transition()
+        .delay(5200)
         .ease(d3.easeExpInOut)
         .duration(3000)
         .style('opacity', 4)
