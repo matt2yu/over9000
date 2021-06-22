@@ -2,19 +2,19 @@ const file = 'data.json';
 const width = window.innerWidth;
 const height = window.innerHeight;
 const colors = {
-    Naruto: '#FFA500',
-    MyHeroAcademia: '#1C88C7',
-    DragonBallZ: '#FCC700',
+    Naruto: '#1C88C7',
+    MyHeroAcademia: '#FFD700',
+    DragonBallZ: '#FFA500',
     OnePunchMan: '#228B22',
     HunterxHunter: '#9370D8'
 };
 
 const logos = {
-    Naruto: '#FFA500',
-    MyHeroAcademia: '#1C88C7',
-    DragonBallZ: '#FCC700',
+    Naruto: 'url(#Naruto)',
+    MyHeroAcademia: 'url(#MHA)',
+    DragonBallZ: 'url(#DBZ)',
     OnePunchMan: 'url(#OPM)',
-    HunterxHunter: '#9370D8'
+    HunterxHunter: 'url(#HXH)'
 };
 
 
