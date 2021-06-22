@@ -56,7 +56,6 @@ const generateChart = data => {
         .attr('transform', d => `translate(${d.x}, ${d.y})`);
     
     circle.transition()
-        .delay(1250)
         .ease(d3.easeExpInOut)
         .duration(2000)
         .attr('r', d => d.r);

@@ -5,27 +5,20 @@
          "score": 50,
          "link": "https://www.youtube.com/watch_popup?v=5Bia4ksr8Cs",
          "img": "./assets/images/50attackmoves/U9LG7GD.png"
-   },
-   {
-         "name": "Midoriya: 1,000,000% Percent Delaware Detroit Smash",
-         "category": "MyHeroAcademia",
-         "score": 21.518072289156626,
-         "link": "/MyHeroAcademia",
-         "img": "https://picsum.photos/id/118/1500/1000"
-   },
-   {
-         "name": "Goku: Supreme Kamehameha",
-         "category": "DragonBallZ",
-         "score": 35.032128514056225,
-         "link": "/DragonBallZ",
+      },
+      {
+            "name": "Goku: Supreme Kamehameha",
+            "category": "DragonBallZ",
+            "score": 35.032128514056225,
+            "link": "/DragonBallZ",
+            "img": "https://picsum.photos/id/119/3264/2176"
+      },
+      {
+         "name": "Boros: Collapsing Star Roaring Cannon ",
+         "category": "OnePunchMan",
+         "score": 39.12321315,
+         "link": "/OnePunchMan",
          "img": "https://picsum.photos/id/119/3264/2176"
-   },
-   {
-      "name": "Can't Stop Twinkling: Naval Laser Buffet",
-      "category": "MyHeroAcademia",
-      "score": 0.45,
-      "link": "/DragonBallZ",
-      "img": "https://picsum.photos/id/119/3264/2176"
    },
    {
       "name": "Freiza: Death Ball",
@@ -49,6 +42,21 @@
       "img": "https://picsum.photos/id/119/3264/2176"
    },
    {
+      "name": "Saitama: Consecutive Punches",
+      "category": "OnePunchMan",
+      "score": 22.0,
+      "link": "/OnePunchMan",
+      "img": "https://picsum.photos/id/119/3264/2176"
+},
+
+   {
+         "name": "Midoriya: 1,000,000% Delaware Detroit Smash",
+         "category": "MyHeroAcademia",
+         "score": 21.518072289156626,
+         "link": "/MyHeroAcademia",
+         "img": "https://picsum.photos/id/118/1500/1000"
+   },
+   {
       "name": "All Might: United States of Smash",
       "category": "MyHeroAcademia",
       "score": 19.193407634,
@@ -64,6 +72,13 @@
    },
    {
       "name": "All for One: Ultimate Combination",
+      "category": "MyHeroAcademia",
+      "score": 18.5,
+      "link": "/MyHeroAcademia",
+      "img": "https://picsum.photos/id/119/3264/2176"
+   },
+   {
+      "name": "Tornado: Telekinesis",
       "category": "MyHeroAcademia",
       "score": 18.5,
       "link": "/MyHeroAcademia",
@@ -124,7 +139,114 @@
       "score": 13.23232325,
       "link": "/MyHeroAcademia",
       "img": "https://picsum.photos/id/119/3264/2176"
-   }
-   
+   },
+   {
+      "name": "Genos: Incineration Cannon",
+      "category": "OnePunchMan",
+      "score": 12.121212,
+      "link": "/OnePunchMan",
+      "img": "https://picsum.photos/id/119/3264/2176"
+   },
+   {
+      "name": "Saitama: Toy Hammer",
+      "category": "OnePunchMan",
+      "score": 11.11111111,
+      "link": "/OnePunchMan",
+      "img": "https://picsum.photos/id/119/3264/2176"
+   },
+   {
+      "name": "Todoroki: Flash Freeze Heatwave",
+      "category": "MyHeroAcademia",
+      "score": 10.000000,
+      "link": "/MyHeroAcademia",
+      "img": "https://picsum.photos/id/119/3264/2176"
+   },
+   {
+      "name": "Midoriya: 8% Full Cowling",
+      "category": "MyHeroAcademia",
+      "score": 8.88888888,
+      "link": "/MyHeroAcademia",
+      "img": "https://picsum.photos/id/119/3264/2176"
+   },
+   {
+      "name": "Razor: Volleyball Spike",
+      "category": "HunterxHunter",
+      "score": 8.500000,
+      "link": "/HunterxHunter",
+      "img": "https://picsum.photos/id/119/3264/2176"
+   },
+   {
+      "name": "Uvogin: Big Bang Impact",
+      "category": "HunterxHunter",
+      "score": 8.191919,
+      "link": "/HunterxHunter",
+      "img": "https://picsum.photos/id/119/3264/2176"
+   },
+   {
+      "name": "Goku: Spirit Bomb",
+      "category": "DragonBallZ",
+      "score": 7.5,
+      "link": "/DragonBallZ",
+      "img": "https://picsum.photos/id/119/3264/2176"
+   },
+   {
+      "name": "Goku: Kamehameha",
+      "category": "DragonBallZ",
+      "score": 7.25,
+      "link": "/DragonBallZ",
+      "img": "https://picsum.photos/id/119/3264/2176"
+   },
+   {
+      "name": "Feitan: Rising Sun",
+      "category": "HunterxHunter",
+      "score": 7.2,
+      "link": "/HunterxHunter",
+      "img": "https://picsum.photos/id/119/3264/2176"
+   },
+   {
+      "name": "Master Roshi: Kamehameha",
+      "category": "DragonBallZ",
+      "score": 7.125,
+      "link": "/DragonBallZ",
+      "img": "https://picsum.photos/id/119/3264/2176"
+   },
+   {
+      "name": "Killua: Godspeed",
+      "category": "HunterxHunter",
+      "score": 7.05,
+      "link": "/HunterxHunter",
+      "img": "https://picsum.photos/id/119/3264/2176"
+   },
+   {
+      "name": "Vegeta: Final Flash",
+      "category": "DragonBallZ",
+      "score": 6.66999,
+      "link": "/DragonBallZ",
+      "img": "https://picsum.photos/id/119/3264/2176"
+   },
+   {
+      "name": "Bakugo: Howitzer Impact",
+      "category": "MyHeroAcademia",
+      "score": 6.5,
+      "link": "/MyHeroAcademia",
+      "img": "https://picsum.photos/id/119/3264/2176"
+   },
+   {
+      "name": "Madara: Indra's Arrow",
+      "category": "Naruto",
+      "score": 6.45,
+      "link": "/Naruto",
+      "img": "https://picsum.photos/id/119/3264/2176"
+   },
 
+
+
+
+   {
+      "name": "Can't Stop Twinkling: Naval Laser Buffet",
+      "category": "MyHeroAcademia",
+      "score": 0.45,
+      "link": "/DragonBallZ",
+      "img": "https://picsum.photos/id/119/3264/2176"
+   }
 ]  
