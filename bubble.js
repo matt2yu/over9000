@@ -9,6 +9,14 @@ const colors = {
     HunterxHunter: '#9370D8'
 };
 
+const logos = {
+    Naruto: '#FFA500',
+    MyHeroAcademia: '#1C88C7',
+    DragonBallZ: '#FCC700',
+    OnePunchMan: 'url(#OPM)',
+    HunterxHunter: '#9370D8'
+};
+
 
 const generateChart = data => {
     const bubble = data => d3.pack()
@@ -18,8 +26,19 @@ const generateChart = data => {
     const svg = d3.select('#bubble-chart')
         .style('width', width)
         .style('height', height);
-        
-    
+
+    // const defs = svg.append("defs");   
+    // defs.append("pattern")
+    //     .attr("id", "OPM")
+    //     .attr("height", "100%")
+    //     .attr("width", "100%")
+    //     .attr("patternContentUnits", "objectBoundingBox")
+    //     .append("image")
+    //     .attr("height", 1)
+    //     .attr("width", 1)
+    //     .attr("preserveAspectRatio", "none")
+    //     .attr("xlink:href", "./assets/images/OPM.jpg")
+  
     const root = bubble(data);
     const tooltip = d3.select('.tooltip');
 
@@ -37,11 +56,15 @@ const generateChart = data => {
             tooltip.select('span').attr('class', d.data.category).text(d.data.category);
             tooltip.style('visibility', 'visible');
             d3.select(this).style('stroke', 'black');
+            d3.select(this).style('fill', 'url(#power-scout)');
+
         })
         .on('mousemove', e => tooltip.style('top', `${e.pageY}px`)
             .style('left', `${e.pageX + 10}px`))
         .on('mouseout', function (e, d) {
             d3.select(this).style('stroke', 'none');
+            d3.select(this).style('fill', d => logos[d.data.category]);
+
             
 
             return tooltip.style('visibility', 'hidden');
