@@ -238,14 +238,164 @@
       "link": "/Naruto",
       "img": "https://picsum.photos/id/119/3264/2176"
    },
-
-
-
-
+   {
+      "name": "Naruto: Rasenshuriken",
+      "category": "Naruto",
+      "score": 6.32,
+      "link": "/Naruto",
+      "img": "https://picsum.photos/id/119/3264/2176"
+   },
+   {
+      "name": "Midoriya: Shoot Style",
+      "category": "MyHeroAcademia",
+      "score": 3.2111,
+      "link": "/MyHeroAcademia",
+      "img": "https://picsum.photos/id/119/3264/2176"
+   },
+   {
+      "name": "Itachi: Amateratsu",
+      "category": "Naruto",
+      "score": 6.21,
+      "link": "/Naruto",
+      "img": "https://picsum.photos/id/119/3264/2176"
+   },
+   {
+      "name": "Sasuke: Susanoo",
+      "category": "Naruto",
+      "score": 6.156,
+      "link": "/Naruto",
+      "img": "https://picsum.photos/id/119/3264/2176"
+   },
+   {
+      "name": "Gohan: Kamehameha",
+      "category": "DragonBallZ",
+      "score": 5.75,
+      "link": "/DragonBallZ",
+      "img": "https://picsum.photos/id/119/3264/2176"
+   },
+   {
+      "name": "Gon: Adult Form Janken",
+      "category": "HunterxHunter",
+      "score": 16.45,
+      "link": "/HunterxHunter",
+      "img": "https://picsum.photos/id/119/3264/2176"
+   },
+   {
+      "name": "Gon: Janken",
+      "category": "HunterxHunter",
+      "score": 5.5,
+      "link": "/HunterxHunter",
+      "img": "https://picsum.photos/id/119/3264/2176"
+   },
+   {
+      "name": "Android 18: High-Pressure Energy Wave",
+      "category": "DragonBallZ",
+      "score": 5.222,
+      "link": "/DragonBallZ",
+      "img": "https://picsum.photos/id/119/3264/2176"
+   },
+   {
+      "name": "Naruto: Rasengan",
+      "category": "Naruto",
+      "score": 5.100,
+      "link": "/Naruto",
+      "img": "https://picsum.photos/id/119/3264/2176"
+   },
+   {
+      "name": "Gale Force: Whirlwind",
+      "category": "MyHeroAcademia",
+      "score": 5.000,
+      "link": "/MyHeroAcademia",
+      "img": "https://picsum.photos/id/119/3264/2176"
+   },
+   {
+      "name": "Zeno: Dragon Dive",
+      "category": "HunterxHunter",
+      "score": 6.75,
+      "link": "/HunterxHunter",
+      "img": "https://picsum.photos/id/119/3264/2176"
+   },
+   {
+      "name": "Kakashi: Chidori",
+      "category": "Naruto",
+      "score": 4.80,
+      "link": "/Naruto",
+      "img": "https://picsum.photos/id/119/3264/2176"
+   },
+   {
+      "name": "Goten: Kamehameha",
+      "category": "DragonBallZ",
+      "score": 4.20,
+      "link": "/DragonBallZ",
+      "img": "https://picsum.photos/id/119/3264/2176"
+   },
+   {
+      "name": "Genthru: Little Flower",
+      "category": "HunterxHunter",
+      "score": 4.10,
+      "link": "/HunterxHunter",
+      "img": "https://picsum.photos/id/119/3264/2176"
+   },
+   {
+      "name": "Kite: Crazy Slots",
+      "category": "HunterxHunter",
+      "score": 3.8,
+      "link": "/HunterxHunter",
+      "img": "https://picsum.photos/id/119/3264/2176"
+   },
+   {
+      "name": "Neji: Eight Trigrams Palms Revolving Heaven",
+      "category": "Naruto",
+      "score": 3.5,
+      "link": "/Naruto",
+      "img": "https://picsum.photos/id/119/3264/2176"
+   },
+   {
+      "name": "Piccolo: Special Beam Cannon",
+      "category": "DragonBallZ",
+      "score": 3.25,
+      "link": "/DragonBallZ",
+      "img": "https://picsum.photos/id/119/3264/2176"
+   },
+   {
+      "name": "Red Riot: Unbreakable",
+      "category": "MyHeroAcademia",
+      "score": 2.77,
+      "link": "/MyHeroAcademia",
+      "img": "https://picsum.photos/id/119/3264/2176"
+   },
+   {
+      "name": "Rock Lee: Drunken Fist",
+      "category": "Naruto",
+      "score": 2.5,
+      "link": "/Naruto",
+      "img": "https://picsum.photos/id/119/3264/2176"
+   },
+   {
+      "name": "Leorio: Remote Punch",
+      "category": "HunterxHunter",
+      "score": 2.0,
+      "link": "/HunterxHunter",
+      "img": "https://picsum.photos/id/119/3264/2176"
+   },
+   {
+      "name": "Grape Juice: Grape Rush",
+      "category": "MyHeroAcademia",
+      "score": 1.7,
+      "link": "/MyHeroAcademia",
+      "img": "https://picsum.photos/id/119/3264/2176"
+   },
+   {
+      "name": "Yamcha: Spirit Ball",
+      "category": "DragonBallZ",
+      "score": 1.5,
+      "link": "/DragonBallZ",
+      "img": "https://picsum.photos/id/119/3264/2176"
+   },
    {
       "name": "Can't Stop Twinkling: Naval Laser Buffet",
       "category": "MyHeroAcademia",
-      "score": 0.45,
+      "score": 1,
       "link": "/DragonBallZ",
       "img": "https://picsum.photos/id/119/3264/2176"
    }

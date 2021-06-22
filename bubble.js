@@ -18,6 +18,7 @@ const generateChart = data => {
     const svg = d3.select('#bubble-chart')
         .style('width', width)
         .style('height', height);
+        
     
     const root = bubble(data);
     const tooltip = d3.select('.tooltip');
@@ -41,11 +42,11 @@ const generateChart = data => {
             .style('left', `${e.pageX + 10}px`))
         .on('mouseout', function (e, d) {
             d3.select(this).style('stroke', 'none');
-            d3.select(this).style('opacity', '0.25');
+            
+
             return tooltip.style('visibility', 'hidden');
         })
-        .on('click', (e, d) => window.open(d.data.link));
-    
+        .on('click', (e, d) => window.open(d.data.link))
     const label = node.append('text')
         .attr('dy', 2)
         .text(d => d.data.name.substring(0, d.r / 3));
