@@ -13,7 +13,7 @@ const colors = {
 const generateChart = data => {
     const bubble = data => d3.pack()
         .size([width, height])
-        .padding(8)(d3.hierarchy({ children: data }).sum(d => d.score));
+        .padding(6)(d3.hierarchy({ children: data }).sum(d => d.score));
 
     const svg = d3.select('#bubble-chart')
         .style('width', width)
@@ -34,13 +34,13 @@ const generateChart = data => {
             tooltip.select('a').attr('href', d.data.link).text(d.data.name);
             tooltip.select('span').attr('class', d.data.category).text(d.data.category);
             tooltip.style('visibility', 'visible');
-
-            d3.select(this).style('stroke', '#222');
+            d3.select(this).style('stroke', 'black');
         })
         .on('mousemove', e => tooltip.style('top', `${e.pageY}px`)
             .style('left', `${e.pageX + 10}px`))
-        .on('mouseout', function () {
+        .on('mouseout', function (e, d) {
             d3.select(this).style('stroke', 'none');
+            d3.select(this).style('opacity', '0.25');
             return tooltip.style('visibility', 'hidden');
         })
         .on('click', (e, d) => window.open(d.data.link));

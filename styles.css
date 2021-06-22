@@ -12,6 +12,8 @@ body {
     background-size: cover;
 } */
 
+
+
 text {
     text-anchor: middle;
     font: 14px sans-serif;
@@ -32,6 +34,7 @@ circle {
     text-align: center;
     width: auto;
 }
+
 
 
 img {
@@ -55,7 +58,7 @@ span {
     font-size: 14px;
 }
 
-.HunterxHunter { background: #9370D8; }
+.HunterxHunter { background: #9370D8 }
 .MyHeroAcademia { background: #1C88C7; }
 .DragonBallZ { background: #FCC700; }
 .OnePunchMan { background: #228B22; }
@@ -69,8 +72,11 @@ span {
     display: flex;
     font-family: sans-serif;
     max-width: 500px;
+    
+    
 }
 
 .tooltip div {
     padding: 10px;
+    
 }
