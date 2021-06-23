@@ -1,6 +1,7 @@
 const file = 'data.json';
 const width = window.innerWidth;
 const height = window.innerHeight;
+
 const colors = {
     Naruto: '#1C88C7',
     MyHeroAcademia: '#FFD700',
@@ -42,10 +43,6 @@ const generateChart = data => {
     const root = bubble(data);
     const tooltip = d3.select('.tooltip');
 
-    const groupButton = d3.select("anime-group").on('click', function() {
-        console.log("You clicked")
-    })
-
     const node = svg.selectAll()
         .data(root.children)
         .enter().append('g')
@@ -55,6 +52,7 @@ const generateChart = data => {
     const circle = node.append('circle')
         // .style('')
         .style('fill', d => colors[d.data.category])
+        .style('filter', 'url(#dropshadow)')
         .on('mouseover', function (e, d) {
             tooltip.select('img').attr('src', d.data.img);
             tooltip.select('a').attr('href', d.data.link).text(d.data.name);
@@ -93,13 +91,7 @@ const generateChart = data => {
             d3.select(this).style('visibility', 'hidden');
 
         })
-       
-        
 
-
-
-  
-        
     node.transition()
         .delay(3000)
         .ease(d3.easeExpInOut)
@@ -122,6 +114,6 @@ const generateChart = data => {
 
 
 (async () => {
-    data = await d3.json(file).then(data => data);
+    data = await d3.json(file);
     generateChart(data);
 })();
