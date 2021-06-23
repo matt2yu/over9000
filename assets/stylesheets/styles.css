@@ -6,9 +6,14 @@ body {
     right:0;
 }
 
-html {
-}
-
+video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
 
 
 text {
@@ -52,7 +57,7 @@ span {
     font-size: 14px;
 }
 
-.HunterxHunter { background: #9370D8 }
+.HunterxHunter { background: #9370D8; }
 .MyHeroAcademia { background: #1C88C7; }
 .DragonBallZ { background: #FCC700; }
 .OnePunchMan { background: #228B22; }
@@ -65,7 +70,7 @@ span {
     background-color: #111;
     display: flex;
     font-family: sans-serif;
-    max-width: 500px;
+    max-width: auto;
     
     
 }

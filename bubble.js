@@ -21,7 +21,7 @@ const logos = {
 const generateChart = data => {
     const bubble = data => d3.pack()
         .size([width, height])
-        .padding(6)(d3.hierarchy({ children: data }).sum(d => d.score));
+        .padding(4)(d3.hierarchy({ children: data }).sum(d => d.score));
 
     const svg = d3.select('#bubble-chart')
         .style('width', width)
@@ -57,23 +57,36 @@ const generateChart = data => {
             tooltip.style('visibility', 'visible');
             d3.select(this).style('stroke', 'black');
             d3.select(this).style('fill', 'url(#power-scout)');
-
         })
         .on('mousemove', e => tooltip.style('top', `${e.pageY}px`)
             .style('left', `${e.pageX + 10}px`))
         .on('mouseout', function (e, d) {
             d3.select(this).style('stroke', 'none');
+            d3.select(this).style('color', 'white');
             d3.select(this).style('fill', d => logos[d.data.category]);
+            d3.select(this).style('opacity', '0.85');
+            d3.select(this).select('text').style('fill', 'white');
 
-            
 
             return tooltip.style('visibility', 'hidden');
         })
         .on('click', (e, d) => window.open(d.data.link))
     const label = node.append('text')
         .attr('dy', 2)
-        .text(d => d.data.name.substring(0, d.r / 3));
+        .text(d => d.data.name.substring(0, d.r / 3))
+        .style('stroke', 'black')
+        .style('stroke-width', '4px')
+        .style('stroke-opacity', '0.6')
+        .style('font-weight', '600')
+        .style('font-family', 'sans-serif')
+        .style('fill', 'white')
+        .style('paint-order', 'stroke');
+       
 
+
+
+
+        
     node.transition()
         .delay(3000)
         .ease(d3.easeExpInOut)
