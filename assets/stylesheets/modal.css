@@ -28,21 +28,21 @@
   transform: translate(-50%, -50%);
   z-index: 3;
   color: white;
-  background-color:rgba(196, 60, 116, 0.5);
+  background-color:rgba(196, 60, 116, 0.69);
   border-radius: 15px;
-  box-shadow: 0 0 0.625rem 0 rgba(192,187,180,0.8);
+  box-shadow: 0 0 0.625rem 0 rgba(59, 247, 35, 0.8);
   padding: 20px;
   text-align: center;
 }
 
 .modal-title {
   font-family: 'Wallpoet', sans-serif;
-  font-size: 50px;
+  font-size: 64px;
   font-weight: 700;
   letter-spacing: 1px;
   color: rgb(102, 201, 102);  
   text-shadow: 4px 2px #000000;
-  margin-bottom: 5px;
+  margin-top: auto;
 }
 
 .modal-text > h2 {
@@ -56,11 +56,29 @@
 
 .modal-text > p {
   font-family: 'Inter', sans-serif;
-  font-size: 18px;
+  font-size: 28px;
   padding: 0px 30px;
   line-height: 22px;
   letter-spacing: 1px;
   margin-bottom: 15px;
+}
+
+.middle-text {
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  padding: 0px 20px;
+  line-height: 22px;
+  letter-spacing: 0.5px;
+  margin-bottom: 20px;
+}
+
+.end-text {
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  padding: 0px 20px;
+  line-height: 22px;
+  letter-spacing: 0.5px;
+  margin-bottom: 20px;
 }
 
 .modal-close {
@@ -72,7 +90,7 @@
   border-radius: 25px;
   padding: 12px;
   font-family: 'Inter', sans-serif;
-  font-size: 16px;
+  font-size: 22px;
   font-weight: bold;
   transition: all .6s ease;
   margin-top: 20px;
@@ -82,9 +100,10 @@
 
 .modal-close:hover {
   cursor: pointer;
-  color: red;
+  color:rgb(230, 82, 144);
   font-weight: bold;
   background-color: #3ead34;
-  border: 1px solid #f1f1f1;
+  border: 1px solid rgba(0, 0, 0, 0.7);
   transition: all .7s ease;
+  
 }
