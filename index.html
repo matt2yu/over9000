@@ -64,11 +64,12 @@
             
             function myFunction() {
                 if (video.paused) {
+                    video.style.display='flex';
                     video.play();
                     btn.innerHTML = "Pause";
                 } else {
                     video.pause();
-                    video.fadeIn();
+                    video.style.display='none';
                     btn.innerHTML = "Play";
                 }
             }
