@@ -96,8 +96,17 @@ span {
     background-color:rgba(0, 0, 0, 0.5);
     color: #f1f1f1;
     padding: 14px;
+}
 
-  }
+#audio-bg {
+  position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 15%;
+    min-height: 15%;
+    opacity: 0.25;
+    }
+
 #video-bg {
 position: fixed;
   right: 0;
@@ -119,8 +128,6 @@ position: fixed;
     cursor: pointer;
     border: 1.5px solid black;
     text-shadow: 1px 1px #000000;
-
-
   }
   
   #video-button:hover {
@@ -129,8 +136,27 @@ position: fixed;
     font-weight: bold;
     border: 1.5px solid black;
     text-shadow: 1px 1px #000000;
+  }
 
-
+  #audio-button {
+    width: 100px;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    background: rgb(102, 201, 102);
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1.5px solid black;
+    text-shadow: 1px 1px #000000;
+  }
+  
+  #audio-button:hover {
+    background: rgb(245, 41, 41);
+    color: white;
+    font-weight: bold;
+    border: 1.5px solid black;
+    text-shadow: 1px 1px #000000;
   }
 
   #anime-group {

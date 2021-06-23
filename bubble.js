@@ -69,7 +69,6 @@ const generateChart = data => {
             d3.select(this).style('stroke', 'none');
             d3.select(this).style('color', 'white');
             d3.select(this).style('fill', d => logos[d.data.category]);
-            d3.select(this).style('opacity', '0.85');
             d3.select(this).select('text').style('fill', 'white');
 
 

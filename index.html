@@ -72,19 +72,24 @@
             Your browser does not support HTML5 video.
         </video>
 
+        <audio id="audio-bg" autoplay loop>
+            <source src="./assets/audio/lostInParadise.mp3" type="audio/mp3">
+        </audio>
+
         <div class="video-content">
             <button id="video-button" onclick="myFunction()">Pause</button>&nbsp;&nbsp;&nbsp;&nbsp;
+            <button id="audio-button" onclick="myFunctionTwo()">Mute</button>&nbsp;&nbsp;&nbsp;&nbsp;
+
             <button id="anime-group"">Group by Anime</button>&nbsp;&nbsp;&nbsp;&nbsp;
             <button id="anime-combine">Group All</button>
-
-
         </div>
 
         <script>
-            var video = document.getElementById("video-bg");
-            var btn = document.getElementById("video-button");
-            
+            const video = document.getElementById("video-bg");
+            const btn = document.getElementById("video-button");
+
             function myFunction() {
+                
                 if (video.paused) {
                     video.style.display='flex';
                     video.play();
@@ -93,6 +98,26 @@
                     video.pause();
                     video.style.display='none';
                     btn.innerHTML = "Play";
+                }
+            }
+        </script>
+
+        <script>
+            let audioTwo = document.getElementById("audio-bg");
+            audioTwo.volume = 0.1;
+        </script>
+        
+        <script>
+            const audio = document.getElementById("audio-bg");
+            const btn2 = document.getElementById("audio-button");
+            
+            function myFunctionTwo() {
+                if (audio.paused) {
+                    audio.play();
+                    btn2.innerHTML = "Mute";
+                } else {
+                    audio.pause();
+                    btn2.innerHTML = "Resume";
                 }
             }
         </script>
