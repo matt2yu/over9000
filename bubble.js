@@ -28,18 +28,6 @@ const generateChart = data => {
         .style('width', width)
         .style('height', height);
 
-    // const defs = svg.append("defs");   
-    // defs.append("pattern")
-    //     .attr("id", "OPM")
-    //     .attr("height", "100%")
-    //     .attr("width", "100%")
-    //     .attr("patternContentUnits", "objectBoundingBox")
-    //     .append("image")
-    //     .attr("height", 1)
-    //     .attr("width", 1)
-    //     .attr("preserveAspectRatio", "none")
-    //     .attr("xlink:href", "./assets/images/OPM.jpg")
-  
     const root = bubble(data);
     const tooltip = d3.select('.tooltip');
 
@@ -75,7 +63,7 @@ const generateChart = data => {
             return tooltip.style('visibility', 'hidden');
         })
         .on('click', (e, d) => window.open(d.data.link))
-       
+
     const label = node.append('text')
         .attr('dy', 2)
         .text(d => d.data.name.substring(0, d.r / 3))
@@ -110,8 +98,6 @@ const generateChart = data => {
         .duration(3000)
         .style('opacity', 4)
 };
-
-
 
 (async () => {
     data = await d3.json(file);

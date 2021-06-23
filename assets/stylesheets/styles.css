@@ -80,13 +80,10 @@ span {
     display: flex;
     font-family: sans-serif;
     max-width: auto;
-    
-    
 }
 
 .tooltip div {
     padding: 10px;
-    
 }
 
 .video-content {
@@ -116,7 +113,7 @@ position: fixed;
   z-index: -1;
 
   }
-  /* Style the button used to pause/play the video */
+
   #video-button {
     width: 100px;
     font-size: 16px;
