@@ -18,7 +18,7 @@
   background: url("../images/ITSOVER9000.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  opacity: 0.8;
+  opacity: 0.85;
 }
 
 .modal-text {
@@ -28,9 +28,9 @@
   transform: translate(-50%, -50%);
   z-index: 3;
   color: white;
-  background-color:rgba(196, 60, 116, 0.69);
+  background-color:rgba(196, 60, 116, 0.75);
   border-radius: 15px;
-  box-shadow: 0 0 0.625rem 0 rgba(59, 247, 35, 0.8);
+  box-shadow: 0 0 0.625rem 0 rgba(59, 247, 35, 0.9);
   padding: 20px;
   text-align: center;
 }
