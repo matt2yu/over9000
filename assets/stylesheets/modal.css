@@ -18,6 +18,7 @@
   background: url("../images/ITSOVER9000.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  opacity: 0.8;
 }
 
 .modal-text {
@@ -39,7 +40,8 @@
   font-size: 50px;
   font-weight: 700;
   letter-spacing: 1px;
-  color: white;
+  color: rgb(102, 201, 102);  
+  text-shadow: 4px 2px #000000;
   margin-bottom: 5px;
 }
 

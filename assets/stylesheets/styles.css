@@ -109,16 +109,19 @@ position: fixed;
     border: none;
     background: rgb(245, 41, 41);
     color: #fff;
+    font-weight: bold;
     cursor: pointer;
   }
   
   #video-button:hover {
-    background: rgb(81, 155, 197);
-    color: black;
+    background: rgb(81, 197, 100);
+    color: white;
+    font-weight: bold;
   }
 
   .header {
     position:absolute;
+    left: 15px;
   }
 
 .by-name {
@@ -145,7 +148,7 @@ position: fixed;
     font-family: 'Wallpoet', sans-serif;
     font-size: 50px;
     font-weight: bold;
-    color: white;
+    color: rgb(102, 201, 102);
     text-shadow: 5px 4px #000000;
 
 
