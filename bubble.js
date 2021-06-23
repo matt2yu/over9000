@@ -21,7 +21,7 @@ const logos = {
 const generateChart = data => {
     const bubble = data => d3.pack()
         .size([width, height])
-        .padding(4)(d3.hierarchy({ children: data }).sum(d => d.score));
+        .padding(12)(d3.hierarchy({ children: data }).sum(d => d.score));
 
     const svg = d3.select('#bubble-chart')
         .style('width', width)
@@ -68,6 +68,7 @@ const generateChart = data => {
             d3.select(this).select('text').style('fill', 'white');
 
 
+
             return tooltip.style('visibility', 'hidden');
         })
         .on('click', (e, d) => window.open(d.data.link))
@@ -75,12 +76,16 @@ const generateChart = data => {
         .attr('dy', 2)
         .text(d => d.data.name.substring(0, d.r / 3))
         .style('stroke', 'black')
-        .style('stroke-width', '4px')
-        .style('stroke-opacity', '0.6')
+        .style('stroke-width', '3px')
+        .style('stroke-opacity', '0.65')
         .style('font-weight', '600')
         .style('font-family', 'sans-serif')
         .style('fill', 'white')
-        .style('paint-order', 'stroke');
+        .style('paint-order', 'stroke')
+        .style('text-overflow', 'ellipsis')
+        .on('mouseout', function (e, d) {
+            d3.select(this).style('visibility', 'hidden');
+        })
        
 
 

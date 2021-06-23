@@ -18,6 +18,7 @@ video {
 
 text {
     text-anchor: middle;
+    text-overflow: ellipsis;
     font: 12px sans-serif;
     font-weight: 300;
     pointer-events: none;
@@ -79,3 +80,35 @@ span {
     padding: 10px;
     
 }
+
+.video-content {
+    position: fixed;
+    bottom: 15px;
+    left: 15px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+  }
+#video-bg {
+position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+
+  }
+  /* Style the button used to pause/play the video */
+  #video-button {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: rgb(245, 41, 41);
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #video-button:hover {
+    background: rgb(81, 155, 197);
+    color: black;
+  }

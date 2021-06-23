@@ -10,7 +10,6 @@
     </head>
     <body>
         <svg id="bubble-chart">
-
             <defs>
                 <pattern id='power-scout' height='100%' width='100%' patternContentUnits='objectBoundingBox'>
                     <image opacity='0.6' height="1" width="1" preserveAspectRatio="none" xlink:href="./assets/images/OVER-9000_thumb.gif"></image>
@@ -49,6 +48,31 @@
         <script src="https://d3js.org/d3.v6.js"></script>
         <script src="bubble.js"></script>
         <script src="modal.js"></script>
+
+        <video playsinline autoplay muted loop id="video-bg">
+            <source src="./assets/videos/anime-fights-bg.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+
+        <div class="video-content">
+            <button id="video-button" onclick="myFunction()">Pause</button>
+        </div>
+
+        <script>
+            var video = document.getElementById("video-bg");
+            var btn = document.getElementById("video-button");
+            
+            function myFunction() {
+                if (video.paused) {
+                    video.play();
+                    btn.innerHTML = "Pause";
+                } else {
+                    video.pause();
+                    video.fadeIn();
+                    btn.innerHTML = "Play";
+                }
+            }
+        </script>
 
 
 
