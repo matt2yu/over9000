@@ -42,10 +42,15 @@ const generateChart = data => {
     const root = bubble(data);
     const tooltip = d3.select('.tooltip');
 
+    const groupButton = d3.select("anime-group").on('click', function() {
+        console.log("You clicked")
+    })
+
     const node = svg.selectAll()
         .data(root.children)
         .enter().append('g')
         .attr('transform', `translate(${width / 2}, ${height / 2})`);
+        
     
     const circle = node.append('circle')
         // .style('')
@@ -72,6 +77,7 @@ const generateChart = data => {
             return tooltip.style('visibility', 'hidden');
         })
         .on('click', (e, d) => window.open(d.data.link))
+       
     const label = node.append('text')
         .attr('dy', 2)
         .text(d => d.data.name.substring(0, d.r / 3))
@@ -87,10 +93,11 @@ const generateChart = data => {
             d3.select(this).style('visibility', 'hidden');
         })
        
+        
 
 
 
-
+  
         
     node.transition()
         .delay(3000)
@@ -110,6 +117,8 @@ const generateChart = data => {
         .duration(3000)
         .style('opacity', 4)
 };
+
+
 
 (async () => {
     data = await d3.json(file).then(data => data);
