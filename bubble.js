@@ -73,6 +73,7 @@ const generateChart = data => {
 
 
 
+
             return tooltip.style('visibility', 'hidden');
         })
         .on('click', (e, d) => window.open(d.data.link))
@@ -90,6 +91,7 @@ const generateChart = data => {
         .style('text-overflow', 'ellipsis')
         .on('mouseout', function (e, d) {
             d3.select(this).style('visibility', 'hidden');
+
         })
        
         
