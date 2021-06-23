@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Wallpoet&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 body {
     position: fixed;
     top:0;
@@ -19,6 +22,7 @@ video {
 text {
     text-anchor: middle;
     text-overflow: ellipsis;
+    font-family: 'Inter', sans-serif;
     font: 12px sans-serif;
     font-weight: 300;
     pointer-events: none;
@@ -112,3 +116,44 @@ position: fixed;
     background: rgb(81, 155, 197);
     color: black;
   }
+
+  .header {
+    position:absolute;
+  }
+
+.by-name {
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.links {
+    margin-left: 10px;
+}
+
+.header-links > img {
+    height: 45px;
+    width: 45px;
+    margin-right: 10px
+}
+
+.header-links:hover {
+    opacity: 0.5;
+    transition: all 0.5s ease-in-out;
+}
+
+.header-title {
+    font-family: 'Wallpoet', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 5px 4px #000000;
+
+
+}
+
+.mattyice{
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    color: white;
+    text-shadow: 2px 2px #000000;
+}

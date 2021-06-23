@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Wallpoet&display=swap');
+
 .modal {
   display: none;
 }
@@ -33,7 +35,7 @@
 }
 
 .modal-title {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Wallpoet', sans-serif;
   font-size: 50px;
   font-weight: 700;
   letter-spacing: 1px;
@@ -42,7 +44,7 @@
 }
 
 .modal-text > h2 {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 14px;
   padding: 0px 20px;
   line-height: 22px;
@@ -51,7 +53,7 @@
 }
 
 .modal-text > p {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 18px;
   padding: 0px 30px;
   line-height: 22px;
@@ -67,7 +69,7 @@
   border: 1px solid transparent;
   border-radius: 25px;
   padding: 12px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 16px;
   font-weight: bold;
   transition: all .6s ease;

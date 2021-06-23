@@ -79,7 +79,7 @@ const generateChart = data => {
         .style('stroke-width', '3px')
         .style('stroke-opacity', '0.65')
         .style('font-weight', '600')
-        .style('font-family', 'sans-serif')
+        .style('font-family', 'Inter')
         .style('fill', 'white')
         .style('paint-order', 'stroke')
         .style('text-overflow', 'ellipsis')
