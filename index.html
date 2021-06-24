@@ -85,8 +85,8 @@
         </video>
 
         <div class="video-content">
-            <button id="video-button" onclick="myFunction()">Pause</button>&nbsp;&nbsp;&nbsp;&nbsp;
-            <button id="audio-button" onclick="myFunctionTwo()">Mute</button>&nbsp;&nbsp;&nbsp;&nbsp;
+            <button id="video-button" onclick="myFunction()">Video</button>&nbsp;&nbsp;&nbsp;&nbsp;
+            <button id="audio-button" onclick="myFunctionTwo()">Music</button>&nbsp;&nbsp;&nbsp;&nbsp;
             <button id="anime-group"">Group by Anime</button>&nbsp;&nbsp;&nbsp;&nbsp;
             <button id="anime-combine">Group All</button>
         </div>
@@ -113,8 +113,10 @@
 
         <audio id="audio-bg" playsinline autoplay loop>
             <source src="./assets/audio/lostInParadise.mp3" type="audio/mp3">
-            <script>const audio = document.getElementById("audio-bg");
-                audio.volume = 0.1;</script>
+            <script>
+                const audios = document.getElementById("audio-bg");
+                audios.volume = 0.1;
+            </script>
         </audio>
         
         <script>
