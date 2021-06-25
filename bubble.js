@@ -57,7 +57,7 @@ const generateChart = data => {
             d3.select(this).style('color', 'white');
             d3.select(this).style('fill', d => logos[d.data.category]);
             d3.select(this).select('text').style('fill', 'white');
-            d3.select(this).style('transform', 'scale(.8)')
+            d3.select(this).style('transform', 'scale(1)')
             d3.select(this).style('transition', 'transform .1s')
 
 
