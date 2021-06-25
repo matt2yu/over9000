@@ -221,13 +221,13 @@ position: fixed;
 
 .header-links > img {
     height: 45px;
-    width: 45px;
+    width: auto;
     margin-right: 10px
 }
 
-.header-links:hover {
+.header-logos:hover {
     opacity: 0.15;
-    transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in;
 }
 
 .header-title {
