@@ -47,7 +47,8 @@ const generateChart = data => {
             tooltip.style('visibility', 'visible');
             d3.select(this).style('stroke', 'black');
             d3.select(this).style('fill', 'url(#power-scout)');
-            d3.select(this).transition().attr("r", d.data.score+120);
+            d3.select(this).style('transform', 'scale(1.25)')
+            d3.select(this).style('transition', 'transform .1s')
         })
         .on('mousemove', e => tooltip.style('top', `${e.pageY}px`)
             .style('left', `${e.pageX + 10}px`))
@@ -56,7 +57,9 @@ const generateChart = data => {
             d3.select(this).style('color', 'white');
             d3.select(this).style('fill', d => logos[d.data.category]);
             d3.select(this).select('text').style('fill', 'white');
-            d3.select(this).transition().attr("r", d.data.score+55);
+            d3.select(this).style('transform', 'scale(.9)')
+            d3.select(this).style('transition', 'transform .1s')
+
 
         return tooltip.style('visibility', 'hidden');
         })
