@@ -35,8 +35,7 @@ const generateChart = data => {
         .data(root.children)
         .enter().append('g')
         .attr('transform', `translate(${width / 2}, ${height / 2})`);
-        
-    
+
     const circle = node.append('circle')
         // .style('')
         .style('fill', d => colors[d.data.category])
@@ -48,6 +47,7 @@ const generateChart = data => {
             tooltip.style('visibility', 'visible');
             d3.select(this).style('stroke', 'black');
             d3.select(this).style('fill', 'url(#power-scout)');
+            d3.select(this).transition().attr("r", d.data.score+120);
         })
         .on('mousemove', e => tooltip.style('top', `${e.pageY}px`)
             .style('left', `${e.pageX + 10}px`))
@@ -56,11 +56,9 @@ const generateChart = data => {
             d3.select(this).style('color', 'white');
             d3.select(this).style('fill', d => logos[d.data.category]);
             d3.select(this).select('text').style('fill', 'white');
+            d3.select(this).transition().attr("r", d.data.score+55);
 
-
-
-
-            return tooltip.style('visibility', 'hidden');
+        return tooltip.style('visibility', 'hidden');
         })
         .on('click', (e, d) => window.open(d.data.link))
 
@@ -90,14 +88,16 @@ const generateChart = data => {
         .delay(3000)
         .ease(d3.easeExpInOut)
         .duration(3000)
-        .attr('r', d => d.r);
+        .attr('r', d => d.r)
     
     label.transition()
         .delay(5200)
         .ease(d3.easeExpInOut)
         .duration(3000)
         .style('opacity', 4)
-};
+}
+        
+
 
 (async () => {
     data = await d3.json(file);
