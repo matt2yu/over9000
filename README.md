@@ -23,7 +23,7 @@ This project will be implemented with the following technologies:
 <img src="https://i.imgur.com/ima37R3.png" />
 
 ### Timeline
-- Set up modal and render D3.js bubble chart data (2 day)
+- Set up modal and asynchronously render D3.js bubble chart data (2 days)
 - Transform and transition bubble chart data and style modal (1 day)
 - Add interactive bubble hover and tooltip (1 day)
 - Complete HTML5/CSS3 and add BGM & BGV (1 day)
