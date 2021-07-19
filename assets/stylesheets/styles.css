@@ -5,6 +5,10 @@ header.header {
     padding: 14px;
 }
 
+#bubble-chart {
+  z-index: 3;
+}
+
 body {
     position: fixed;
     top:0;
@@ -217,12 +221,21 @@ position: fixed;
 
 .links {
     margin-left: 10px;
+    z-index: -2;
+}
+
+.header-links {
+  height: 45px;
+  width: 45px;
+  margin-right: 10px;
+  z-index: -2;
 }
 
 .header-links > img {
     height: 45px;
-    width: auto;
-    margin-right: 10px
+    width: 45px;
+    margin-right: 10px;
+    z-index: -2;
 }
 
 .header-logos:hover {

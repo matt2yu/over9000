@@ -45,358 +45,246 @@
       "name": "Saitama: Consecutive Punches",
       "category": "OnePunchMan",
       "score": 22.0,
-      "link": "/OnePunchMan",
-      "img": ""
+      "link": "https://www.youtube-nocookie.com/embed/xnbq7f2CcxE?controls=0",
+      "img": "./assets/images/50attackmoves/saitamaconsecutivenormal.png"
 },
 
    {
          "name": "Midoriya: 1,000,000% Delaware Detroit Smash",
          "category": "MyHeroAcademia",
          "score": 21.518072289156626,
-         "link": "/MyHeroAcademia",
-         "img": "https://picsum.photos/id/118/1500/1000"
+         "link": "https://www.youtube-nocookie.com/embed/-qKt63w7GR8?controls=0&amp;start=652",
+         "img": "./assets/images/50attackmoves/mido1.jpeg"
    },
    {
       "name": "All Might: United States of Smash",
       "category": "MyHeroAcademia",
       "score": 19.193407634,
-      "link": "/MyHeroAcademia",
-      "img": ""
+      "link": "https://www.youtube-nocookie.com/embed/uYfiq-IqxgU?controls=0&amp;start=523",
+      "img": "./assets/images/50attackmoves/usa1.jpg"
    },
    {
       "name": "Cell: Death Beam",
       "category": "DragonBallZ",
       "score": 18.5,
-      "link": "/DragonBallZ",
-      "img": ""
+      "link": "https://www.youtube-nocookie.com/embed/GhNSH2f4QAM?controls=0&amp;start=1218",
+      "img": "./assets/images/50attackmoves/cell1.jpg"
    },
    {
       "name": "All for One: Ultimate Combination",
       "category": "MyHeroAcademia",
       "score": 18.5,
-      "link": "/MyHeroAcademia",
-      "img": ""
+      "link": "https://www.youtube-nocookie.com/embed/GuICI8topGs?controls=0&amp;start=8",
+      "img": "./assets/images/50attackmoves/allforone.jpg"
    },
    {
       "name": "Tornado: Telekinesis",
       "category": "MyHeroAcademia",
       "score": 18.5,
-      "link": "/MyHeroAcademia",
-      "img": ""
+      "link": "https://www.youtube-nocookie.com/embed/3c1LGUP0rpc?controls=0&amp;start=46",
+      "img": "./assets/images/50attackmoves/tornado.jpg"
    },
    {
       "name": "Naruto: Six Paths Rasenshuriken",
       "category": "Naruto",
       "score": 17.53424234,
-      "link": "/Naruto",
-      "img": ""
+      "link": "https://www.youtube.com/embed/euWR76jbBMs?start=31",
+      "img": "./assets/images/50attackmoves/sagenaruto.png"
    },
    {
       "name": "Might Guy: 8th Gate of Death",
       "category": "Naruto",
       "score": 17.234044,
-      "link": "/Naruto",
-      "img": ""
+      "link": "https://www.youtube-nocookie.com/embed/q9OSk1bY6MA?controls=0&amp;start=231",
+      "img": "./assets/images/50attackmoves/sheesh.gif"
    },
    {
       "name": "Endeavor: Prominence Burn",
       "category": "MyHeroAcademia",
       "score": 16.432432,
-      "link": "/MyHeroAcademia",
-      "img": ""
+      "link": "https://www.youtube.com/embed/w7Pw73ojPtI?start=80",
+      "img": "./assets/images/50attackmoves/pbgif.gif"
    },
    {
       "name": "Madara Uchiha: Double Boulder Tengai Shinsei",
       "category": "Naruto",
       "score": 15.532432,
-      "link": "/Naruto",
-      "img": ""
+      "link": "https://www.youtube-nocookie.com/embed/8i6hrx41990?controls=0&amp;start=100",
+      "img": "./assets/images/50attackmoves/madara.png"
    },
    {
       "name": "Naruto: Tailed Beast Bomb",
       "category": "Naruto",
       "score": 15.15,
-      "link": "/Naruto",
-      "img": ""
+      "link": "https://www.youtube.com/embed/l1eYgHkC2eA?start=59",
+      "img": "./assets/images/50attackmoves/tailedf.jpg"
    },
    {
       "name": "Pain: Universal Push",
       "category": "Naruto",
       "score": 15.532432,
-      "link": "/Naruto",
-      "img": ""
+      "link": "https://www.youtube-nocookie.com/embed/C8C_XbSwv7s?controls=0&amp;start=41",
+      "img": "./assets/images/50attackmoves/pain1.jpg"
    },
    {
       "name": "Mumen Rider: Justice Crash",
       "category": "OnePunchMan",
       "score": 14.77777777,
-      "link": "/OnePunchMan",
-      "img": ""
+      "link": "https://www.youtube.com/embed/d2BDJkdwSy0?start=2",
+      "img": "./assets/images/50attackmoves/mumen.jpg"
    },
    {
       "name": "OverHaul: Disassembly",
       "category": "MyHeroAcademia",
       "score": 13.23232325,
-      "link": "/MyHeroAcademia",
-      "img": ""
+      "link": "https://www.youtube-nocookie.com/embed/mUPStFiOMls?controls=0&amp;start=81",
+      "img": "./assets/images/50attackmoves/overhaul.jpeg"
    },
    {
       "name": "Genos: Incineration Cannon",
       "category": "OnePunchMan",
       "score": 12.121212,
-      "link": "/OnePunchMan",
-      "img": ""
+      "link": "https://www.youtube.com/embed/hPs0x3gwW5M?start=177",
+      "img": "./assets/images/50attackmoves/genos.jpg"
    },
    {
       "name": "Saitama: Toy Hammer",
       "category": "OnePunchMan",
       "score": 11.11111111,
-      "link": "/OnePunchMan",
-      "img": ""
+      "link": "https://www.youtube-nocookie.com/embed/XvPb32oIN4g?controls=0&amp;start=76",
+      "img": "./assets/images/50attackmoves/pico.jpg"
    },
    {
       "name": "Todoroki: Flash Freeze Heatwave",
       "category": "MyHeroAcademia",
       "score": 10.000000,
-      "link": "/MyHeroAcademia",
-      "img": ""
+      "link": "https://www.youtube-nocookie.com/embed/Sp4VCRxYjM8?controls=0&amp;start=56",
+      "img": "./assets/images/50attackmoves/todo.gif"
    },
    {
       "name": "Midoriya: 8% Full Cowling",
       "category": "MyHeroAcademia",
       "score": 8.88888888,
-      "link": "/MyHeroAcademia",
-      "img": ""
+      "link": "https://www.youtube-nocookie.com/embed/AtEi3aiU2ew?controls=0&amp;start=185",
+      "img": "./assets/images/50attackmoves/mido2.jpg"
    },
    {
       "name": "Razor: Volleyball Spike",
       "category": "HunterxHunter",
       "score": 8.500000,
-      "link": "/HunterxHunter",
-      "img": ""
+      "link": "https://www.youtube.com/embed/RIo55bNE0d0?start=219",
+      "img": "./assets/images/50attackmoves/razor.jpg"
    },
    {
       "name": "Uvogin: Big Bang Impact",
       "category": "HunterxHunter",
       "score": 8.191919,
-      "link": "/HunterxHunter",
-      "img": ""
+      "link": "https://www.youtube-nocookie.com/embed/bcR3ItVBuDo?controls=0&amp;start=147",
+      "img": "./assets/images/50attackmoves/uvo.png"
    },
    {
       "name": "Goku: Spirit Bomb",
       "category": "DragonBallZ",
       "score": 7.5,
-      "link": "/DragonBallZ",
-      "img": ""
+      "link": "https://www.youtube.com/embed/VfKO_etW_l8?start=344",
+      "img": "./assets/images/50attackmoves/spiritbomb.jpeg"
    },
    {
       "name": "Goku: Kamehameha",
       "category": "DragonBallZ",
       "score": 7.25,
-      "link": "/DragonBallZ",
-      "img": ""
+      "link": "https://www.youtube-nocookie.com/embed/U6r17PIrGqw?controls=0&amp;start=173",
+      "img": "./assets/images/50attackmoves/kamehameha.jpg"
    },
    {
       "name": "Feitan: Rising Sun",
       "category": "HunterxHunter",
       "score": 7.2,
-      "link": "/HunterxHunter",
-      "img": ""
+      "link": "https://www.youtube-nocookie.com/embed/q5X6dkDJSJ8?controls=0&amp;start=60",
+      "img": "./assets/images/50attackmoves/feitan.jpg"
    },
    {
       "name": "Master Roshi: Kamehameha",
       "category": "DragonBallZ",
       "score": 7.125,
-      "link": "/DragonBallZ",
-      "img": ""
+      "link": "https://www.youtube-nocookie.com/embed/l4ct4Ew2vpk?controls=0&amp;start=68",
+      "img": "./assets/images/50attackmoves/roshii.jpg"
    },
    {
       "name": "Killua: Godspeed",
       "category": "HunterxHunter",
       "score": 7.05,
-      "link": "/HunterxHunter",
-      "img": ""
+      "link": "https://www.youtube.com/embed/UO8TLb4aY0w?start=157",
+      "img": "./assets/images/50attackmoves/killua.gif"
    },
    {
       "name": "Vegeta: Final Flash",
       "category": "DragonBallZ",
       "score": 6.66999,
-      "link": "/DragonBallZ",
-      "img": ""
+      "link": "https://www.youtube-nocookie.com/embed/ugdge3Cn9L0?controls=0&amp;start=216",
+      "img": "./assets/images/50attackmoves/vegeta.png"
    },
    {
       "name": "Bakugo: Howitzer Impact",
       "category": "MyHeroAcademia",
       "score": 6.5,
-      "link": "/MyHeroAcademia",
-      "img": ""
+      "link": "https://www.youtube.com/embed/bdZDbhZtOGs?start=2",
+      "img": "./assets/images/50attackmoves/bakugo.jpg"
    },
    {
       "name": "Madara: Indra's Arrow",
       "category": "Naruto",
       "score": 6.45,
-      "link": "/Naruto",
-      "img": ""
+      "link": "https://www.youtube-nocookie.com/embed/vhvXLzpwHRI?controls=0&amp;start=268",
+      "img": "./assets/images/50attackmoves/indra.jpg"
    },
    {
       "name": "Naruto: Rasenshuriken",
       "category": "Naruto",
       "score": 6.32,
-      "link": "/Naruto",
-      "img": ""
+      "link": "https://www.youtube-nocookie.com/embed/ch8vlRPe1Fo?controls=0&amp;start=24",
+      "img": "./assets/images/50attackmoves/rasen.png"
    },
    {
       "name": "Midoriya: Shoot Style",
       "category": "MyHeroAcademia",
       "score": 3.2111,
-      "link": "/MyHeroAcademia",
-      "img": ""
+      "link": "https://www.youtube-nocookie.com/embed/7WC9rJ6LpeU?controls=0&amp;start=66",
+      "img": "./assets/images/50attackmoves/mido3.jpg"
    },
    {
       "name": "Itachi: Amateratsu",
       "category": "Naruto",
       "score": 6.21,
-      "link": "/Naruto",
-      "img": ""
+      "link": "https://www.youtube-nocookie.com/embed/IBwyFK6VqWo?controls=0&amp;start=27",
+      "img": "./assets/images/50attackmoves/itachi.png"
    },
    {
       "name": "Sasuke: Susanoo",
       "category": "Naruto",
       "score": 6.156,
-      "link": "/Naruto",
-      "img": ""
+      "link": "https://www.youtube-nocookie.com/embed/6OEl21SxEqk?controls=0&amp;start=343",
+      "img": "./assets/images/50attackmoves/susano.png"
    },
    {
       "name": "Gohan: Kamehameha",
       "category": "DragonBallZ",
       "score": 5.75,
-      "link": "/DragonBallZ",
-      "img": ""
+      "link": "https://www.youtube-nocookie.com/embed/TVhxHxp2oY8?controls=0&amp;start=176",
+      "img": "./assets/images/50attackmoves/gohan.jpg"
    },
    {
       "name": "Gon: Adult Form Janken",
       "category": "HunterxHunter",
       "score": 16.45,
-      "link": "/HunterxHunter",
-      "img": ""
+      "link": "https://www.youtube-nocookie.com/embed/g-34ps34jTs?controls=0&amp;start=1",
+      "img": "./assets/images/50attackmoves/jona.jpg"
    },
    {
       "name": "Gon: Janken",
       "category": "HunterxHunter",
       "score": 5.5,
-      "link": "/HunterxHunter",
-      "img": ""
-   },
-   {
-      "name": "Android 18: High-Pressure Energy Wave",
-      "category": "DragonBallZ",
-      "score": 5.222,
-      "link": "/DragonBallZ",
-      "img": ""
-   },
-   {
-      "name": "Naruto: Rasengan",
-      "category": "Naruto",
-      "score": 5.100,
-      "link": "/Naruto",
-      "img": ""
-   },
-   {
-      "name": "Gale Force: Whirlwind",
-      "category": "MyHeroAcademia",
-      "score": 5.000,
-      "link": "/MyHeroAcademia",
-      "img": ""
-   },
-   {
-      "name": "Zeno: Dragon Dive",
-      "category": "HunterxHunter",
-      "score": 6.75,
-      "link": "/HunterxHunter",
-      "img": ""
-   },
-   {
-      "name": "Kakashi: Chidori",
-      "category": "Naruto",
-      "score": 4.80,
-      "link": "/Naruto",
-      "img": ""
-   },
-   {
-      "name": "Goten: Kamehameha",
-      "category": "DragonBallZ",
-      "score": 4.20,
-      "link": "/DragonBallZ",
-      "img": ""
-   },
-   {
-      "name": "Genthru: Little Flower",
-      "category": "HunterxHunter",
-      "score": 4.10,
-      "link": "/HunterxHunter",
-      "img": ""
-   },
-   {
-      "name": "Kite: Crazy Slots",
-      "category": "HunterxHunter",
-      "score": 3.8,
-      "link": "/HunterxHunter",
-      "img": ""
-   },
-   {
-      "name": "Neji: Eight Trigrams Palms Revolving Heaven",
-      "category": "Naruto",
-      "score": 3.5,
-      "link": "/Naruto",
-      "img": ""
-   },
-   {
-      "name": "Piccolo: Special Beam Cannon",
-      "category": "DragonBallZ",
-      "score": 3.25,
-      "link": "/DragonBallZ",
-      "img": ""
-   },
-   {
-      "name": "Red Riot: Unbreakable",
-      "category": "MyHeroAcademia",
-      "score": 2.77,
-      "link": "/MyHeroAcademia",
-      "img": ""
-   },
-   {
-      "name": "Rock Lee: Drunken Fist",
-      "category": "Naruto",
-      "score": 2.5,
-      "link": "/Naruto",
-      "img": ""
-   },
-   {
-      "name": "Leorio: Remote Punch",
-      "category": "HunterxHunter",
-      "score": 2.0,
-      "link": "/HunterxHunter",
-      "img": ""
-   },
-   {
-      "name": "Grape Juice: Grape Rush",
-      "category": "MyHeroAcademia",
-      "score": 1.7,
-      "link": "/MyHeroAcademia",
-      "img": ""
-   },
-   {
-      "name": "Yamcha: Spirit Ball",
-      "category": "DragonBallZ",
-      "score": 1.5,
-      "link": "/DragonBallZ",
-      "img": ""
-   },
-   {
-      "name": "Can't Stop Twinkling: Naval Laser Buffet",
-      "category": "MyHeroAcademia",
-      "score": 1,
-      "link": "/DragonBallZ",
-      "img": ""
+      "link": "https://www.youtube-nocookie.com/embed/inncO43geoM?controls=0&amp;start=159",
+      "img": "./assets/images/50attackmoves/gon.png"
    }
 ]  
