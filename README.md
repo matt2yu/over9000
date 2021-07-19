@@ -1,6 +1,7 @@
 # **over9000**
 
 *over9000 is a JavaScript data visualizer where a user can explore a range of their favorite anime character's powerful attack moves.*
+Interactive data visualization and web entertainment viewing application
 
 ### Functionality & MVP
 - Implement welcome modal
@@ -22,8 +23,8 @@ This project will be implemented with the following technologies:
 <img src="https://i.imgur.com/ima37R3.png" />
 
 ### Timeline
-- Set up modal and render bubble chart data (2 day)
-- Animate bubble chart data and modal (1 day)
-- Hover and show information per bubble (1 day)
-- Style entire project (1 day)
-- BONUS: hover shows video panned into the bubble zoom fit
+- Set up modal and asynchronously render D3.js bubble chart data (2 days)
+- Transform and transition bubble chart data and style modal (1 day)
+- Add interactive bubble hover and tooltip (1 day)
+- Complete HTML5/CSS3 and add BGM & BGV (1 day)
+- Bonus: Add x and y forces for json category separation and grouping
