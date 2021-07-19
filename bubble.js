@@ -43,7 +43,7 @@ const generateChart = data => {
         .on('mouseover', function (e, d) {
             tooltip.select('img').attr('src', d.data.img);
             tooltip.select('a').attr('href', d.data.link).text(d.data.name);
-            tooltip.select('span').attr('class', d.data.category).text(d.data.category);
+            tooltip.select('span').attr('class', d.data.category).text(d.data.category).style('display', 'inline-block');
             tooltip.style('visibility', 'visible');
             d3.select(this).style('stroke', 'black');
             d3.select(this).style('fill', 'url(#power-scout)');
